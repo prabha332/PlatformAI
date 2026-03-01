@@ -1,1 +1,16 @@
+# Central configuration
+cluster:
+  kubeconfig: ~/.kube/config
 
+logging:
+  level: INFO
+  file: logs/platformai.log
+
+ai:
+  prediction_threshold: 0.7
+
+prometheus:
+  url: http://prometheus:9090
+
+remediation:
+  auto_heal: true
