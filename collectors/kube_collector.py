@@ -1,3 +1,4 @@
+# Kubernetes Failure Collector
 from kubernetes import client, config
 
 def get_failed_pods():
