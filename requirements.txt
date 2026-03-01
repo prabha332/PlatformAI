@@ -1,1 +1,7 @@
-
+kubernetes
+fastapi
+uvicorn
+scikit-learn
+pandas
+pyyaml
+openai
